@@ -1,0 +1,52 @@
+{
+  "name": "@minozzzi/eslint-config",
+  "private": false,
+  "version": "0.0.0",
+  "description": "ESLint configuration used by github.com/minozzzi.",
+  "main": "index.js",
+  "homepage": "https://github.com/minozzzi/eslint-config#readme",
+  "repository": {
+    "url": "git+https://github.com/minozzzi/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minozzzi/eslint-config/issues"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "react",
+    "node",
+    "next",
+    "typescript"
+  ],
+  "author": "Guilherme Minozzi",
+  "license": "MIT",
+  "packageManager": ">=pnpm@8.5.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "eslint": "^9.4.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "commitlint": "^19.3.0",
+    "husky": "^9.0.11",
+    "standard-version": "^9.5.0"
+  }
+}
