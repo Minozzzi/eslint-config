@@ -1,7 +1,7 @@
 {
   "name": "@minozzzi/eslint-config",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ESLint configuration used by github.com/minozzzi.",
   "main": "index.js",
   "homepage": "https://github.com/minozzzi/eslint-config#readme",
